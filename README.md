@@ -1,7 +1,7 @@
 # Interpolated_DFT
 Implementation of Interpolated DFT algorithms for Rife – Vincent Class I windows
 
-##
+## *IpDFT* function
 Function *[ w_delta, phi_delta, V_delta ] = IpDFT(p,M,V)* performs interpolation of DFT spectrum given by vector V. This vector can be a return product of fft(x) matlab function.
 
 Other input parameters:
@@ -18,7 +18,7 @@ phi_delta - estimated main phase
 
 V_delta - estimated main amplitude
 
-###
+### Usage presentation
 Script *draft_analysis.m* presents use of IpDFT function. 
 
 *RVC1.m* file contains windowing function for Rife - Vincent Class I windows. 
