@@ -41,7 +41,7 @@ end
 %% Współczynniki dla okien RVCI
 Am = [1 0 0 0 0 0 0; 1 1 0 0 0 0 0; 1 4/3 1/3 0 0 0 0; 1 3/2 3/5 1/10 0 ...
     0 0; 1 8/5 4/5 8/35 1/35 0 0; 1 105/63 60/63 45/126 5/63 1/126 0; ...
-    1 396/231 495/462 110/231 33/231 6/231 1/462]';
+    1 396/231 495/462 110/231 33/231 6/231 1/462]';         % [1]
 
 
 if (p == 2) % dla p = 2 metoda dwupunktowa IpDFT
@@ -91,4 +91,8 @@ else % p == 3
     end
 end
 end
+
+% All numbered equations, as well as 'Am' coefficients are from
+% [1] Duda, K. (2011). Fourierowskie metody estymacji widm pra̜żkowych. Wydawnictwa AGH.
+%
 
