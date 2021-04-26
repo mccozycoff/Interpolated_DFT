@@ -1,7 +1,7 @@
 function [ w_delta, phi_delta, V_delta ] = IpDFT(p,M,V)
 % Interpolowane DFT korygujące częstotliwość, amplitudę oraz fazę 
 % wyznaczonych prążków widma V sygnału
-%% Argumenty wywołania:
+%% Argumenty wywołania: 
 % p - wybor metody : 2 - dwupunktowa , 3 - trzypunktowa
 % M - rzad okna RVCI użytego przy okienkowaniu badanego sygnału
 % V - wektor widma dyskretnego (DFT) badanego sygnału okienkowanego
