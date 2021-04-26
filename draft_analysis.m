@@ -50,7 +50,7 @@ stem(wk, 2*abs(Xk),'ro');  % dyskretne widmo sygnalu dyskretnego (DFT)
 
 % IpDFT
 
-[w_delta,phi_delta, V_delta] = IpDFT2(2,M,Xk);
+[w_delta,phi_delta, V_delta] = IpDFT(2,M,Xk);
 
 figure(1)
 stem(Fs*w_delta/2/pi(),V_delta,'gx');
