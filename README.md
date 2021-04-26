@@ -18,3 +18,8 @@ phi_delta - estimated main phase
 
 V_delta - estimated main amplitude
 
+###
+Script *draft_analysis.m* presents use of IpDFT function. 
+
+*RVC1.m* file contains windowing function for Rife - Vincent Class I windows. 
+
